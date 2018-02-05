@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accounts>
+	<account>
+		<user>
+			<username>asd123</username>
+			<budget>1000</budget>
+			<password>asaf</password>
+		</user>
+		<user>
+			<username>asd12</username>
+			<budget>100</budget>
+			<password>asaf</password>
+		</user>
+			<user>
+			<username>sunxiyan</username>
+			<budget>199999</budget>
+			<password>haozhuzhu</password>
+		</user>
+	<user><username>hechen</username><budget>101</budget><password>hechen</password><staffs><staff><staff_name>hc</staff_name><staff_role>Assistant</staff_role><progress>submit a report</progress></staff></staffs><expenses><expense><reason>Add 200</reason><amount>200</amount></expense><expense><reason>minus 100</reason><amount>-100</amount></expense></expenses><supplies><supply><supply_name>laptop</supply_name><supply_quantity>50</supply_quantity></supply></supplies><equipments><equipment><equipment_name>lab1</equipment_name><equipment_quantity>3</equipment_quantity></equipment></equipments></user></account>
+</accounts>

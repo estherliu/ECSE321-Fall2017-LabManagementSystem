@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.mcgill.ecse321.managementsystem.MainActivity">
+
+    <ProgressBar
+        android:id="@+id/main_progressbar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <TableLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/StaffName"
+                android:layout_width="169dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <Button
+                android:id="@+id/AddStaff"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="add staff" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/StaffRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Role" />
+
+            <Button
+                android:id="@+id/liststaff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="list staff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/supplytype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Supply Type" />
+
+            <Button
+                android:id="@+id/addsupply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add supply" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/supplyquantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Quantity" />
+
+            <Button
+                android:id="@+id/listsupply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="list supply" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/equipmentname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="equipment type" />
+
+            <Button
+                android:id="@+id/addequipment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add equipment" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/equipmentquantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Quantity" />
+
+            <Button
+                android:id="@+id/listequipment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="list equipment" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/expensereason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Reason" />
+
+            <Button
+                android:id="@+id/addexpense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add expense" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/expenseamount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="amount" />
+
+            <Button
+                android:id="@+id/listexpense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="list expense" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/progressdescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Progress Description" />
+
+            <Button
+                android:id="@+id/addprogress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add progress" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/staffrelated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Staff Related" />
+
+            <Button
+                android:id="@+id/listprogress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="list progress" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,154 @@
+<systemProgram id="1">
+  <lab id="2">
+    <lab id="3">
+      <username>WVJuVMYekZVHyoEL</username>
+      <accountBalance>0.0</accountBalance>
+      <password>tcOZpfh67oV4q</password>
+      <id>1</id>
+      <staffs id="4"/>
+      <equipments id="5"/>
+      <supplies id="6"/>
+      <expenses id="7"/>
+      <uRLMS reference="1"/>
+    </lab>
+    <lab id="8">
+      <username>UrbreCTMdet</username>
+      <accountBalance>0.0</accountBalance>
+      <password>BOdg3wvo3p</password>
+      <id>2</id>
+      <staffs id="9"/>
+      <equipments id="10"/>
+      <supplies id="11"/>
+      <expenses id="12"/>
+      <uRLMS reference="1"/>
+    </lab>
+    <lab id="13">
+      <username>sUmkCAPB1X4iLfv</username>
+      <accountBalance>0.0</accountBalance>
+      <password>GkMNFBSD5abeqByO</password>
+      <id>3</id>
+      <staffs id="14"/>
+      <equipments id="15"/>
+      <supplies id="16"/>
+      <expenses id="17"/>
+      <uRLMS reference="1"/>
+    </lab>
+    <lab id="18">
+      <username>liu</username>
+      <accountBalance>-93.4</accountBalance>
+      <password>liu</password>
+      <id>4</id>
+      <staffs id="19">
+        <staff id="20">
+          <name>ami</name>
+          <id>1</id>
+          <role>researcher</role>
+          <progresses id="21"/>
+          <lab reference="18"/>
+        </staff>
+        <staff id="22">
+          <name>asd</name>
+          <id>2</id>
+          <role>researcher</role>
+          <progresses id="23"/>
+          <lab reference="18"/>
+        </staff>
+        <staff id="24">
+          <name>pp</name>
+          <id>3</id>
+          <role>researcher</role>
+          <progresses id="25"/>
+          <lab reference="18"/>
+        </staff>
+        <staff id="26">
+          <name>kk</name>
+          <id>4</id>
+          <role>researcher</role>
+          <progresses id="27"/>
+          <lab reference="18"/>
+        </staff>
+        <staff id="28">
+          <name>fas</name>
+          <id>5</id>
+          <role>researcher</role>
+          <progresses id="29"/>
+          <lab reference="18"/>
+        </staff>
+        <staff id="30">
+          <name>liu </name>
+          <id>6</id>
+          <role>researcher</role>
+          <progresses id="31"/>
+          <lab reference="18"/>
+        </staff>
+        <staff id="32">
+          <name>fefed</name>
+          <id>7</id>
+          <role>researcher</role>
+          <progresses id="33"/>
+          <lab reference="18"/>
+        </staff>
+        <staff id="34">
+          <name>fefefe</name>
+          <id>9</id>
+          <role>researcher</role>
+          <progresses id="35"/>
+          <lab reference="18"/>
+        </staff>
+        <staff id="36">
+          <name>feffef</name>
+          <id>10</id>
+          <role>researcher</role>
+          <progresses id="37">
+            <ca.mcgill.ecse321.managementSystem.model.Progress id="38">
+              <detail>sssss</detail>
+              <staff reference="36"/>
+            </ca.mcgill.ecse321.managementSystem.model.Progress>
+          </progresses>
+          <lab reference="18"/>
+        </staff>
+      </staffs>
+      <equipments id="39">
+        <equipment id="40">
+          <name>kk</name>
+          <quantity>6</quantity>
+          <lab reference="18"/>
+        </equipment>
+        <equipment id="41">
+          <name>fefef</name>
+          <quantity>100</quantity>
+          <lab reference="18"/>
+        </equipment>
+        <equipment id="42">
+          <name>fewaf</name>
+          <quantity>31</quantity>
+          <lab reference="18"/>
+        </equipment>
+      </equipments>
+      <supplies id="43"/>
+      <expenses id="44">
+        <expense id="45">
+          <reason>r</reason>
+          <amountPaid>3.6</amountPaid>
+          <lab reference="18"/>
+        </expense>
+        <expense id="46">
+          <reason>a</reason>
+          <amountPaid>1.0</amountPaid>
+          <lab reference="18"/>
+        </expense>
+        <expense id="47">
+          <reason>b</reason>
+          <amountPaid>2.0</amountPaid>
+          <lab reference="18"/>
+        </expense>
+        <expense id="48">
+          <reason>feafwf</reason>
+          <amountPaid>-100.0</amountPaid>
+          <lab reference="18"/>
+        </expense>
+      </expenses>
+      <uRLMS reference="1"/>
+    </lab>
+  </lab>
+</systemProgram>
